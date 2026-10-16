@@ -1280,7 +1280,8 @@ button:focus-visible,
     position: fixed;
     top: 0;
     right: 0;
-    bottom: 0;
+    bottom: auto;
+    height: 40vh;
     width: min(320px, 85vw);
     background: var(--color-surface);
     padding: calc(var(--header-height) + 1rem) 1.5rem 2rem;
